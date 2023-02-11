@@ -1,0 +1,18 @@
+@import "vant/lib/index.css";
+:root {
+	--van-checkbox-checked-icon-color: var(--ft-color-primary);
+	--van-back-top-background: var(--ft-color-primary);
+	--van-tabbar-item-active-color: var(--ft-color-primary);
+	--van-swipe-indicator-active-background: var(--ft-color-primary);
+	--van-swipe-indicator-inactive-background: var(--ft-color-black-2);
+	--van-sidebar-selected-border-color: var(--ft-color-primary);
+	--van-grid-item-content-background: transparent;
+	--van-nav-bar-icon-color: var(--ft-color-black-2);
+	--van-nav-bar-text-color: var(--ft-color-black-2);
+	--van-card-background: var(--ft-color-white);
+}
+html.dark {
+	--van-nav-bar-icon-color: var(--ft-color-white-rgb-1);
+	--van-nav-bar-text-color: var(--ft-color-white-rgb-1);
+	--van-card-background: var(--ft-color-black-2);
+}

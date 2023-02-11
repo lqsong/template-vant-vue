@@ -1,0 +1,20 @@
+:root {
+	--ft-user-layout-bg: var(--ft-color-white);
+}
+html.dark {
+	--ft-user-layout-bg: var(--ft-color-black-1);
+}
+.user-layout {
+	min-height: 100vh;
+	background-color: var(--ft-user-layout-bg);
+}
+.user-title {
+	display: flex;
+	align-items: center;
+	height: 115px;
+	padding: 0 30px;
+	font-size: 25px;
+}
+.user-btn {
+	padding: 30px;
+}
